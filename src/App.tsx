@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
@@ -8,13 +7,14 @@ import Projects from "./components/Projects";
 import About from "./components/About.tsx";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-
+import Header from "./components/Header.tsx";
+import PageContainer from './components/PageContainer.tsx';
 import {Routes, Route, createBrowserRouter, RouterProvider} from 'react-router-dom'
 
-const PageContainer = styled.div`
-  display: flex;
-  flex-direction: collumn;
-`;
+// const PageContainer = styled.div`
+//   display: flex;
+//   flex-direction: collumn;
+// `;s
 
 function Root() {
   return (

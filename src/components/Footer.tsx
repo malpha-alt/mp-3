@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
     align-items: center;
 `;
 
-const StyledP = styled.a`
+const StyledP = styled.p`
   a {
     margin: 0 0.5vw;
   }
@@ -20,7 +20,7 @@ const Footer = () => {
     <StyledFooter>
       <StyledP>
         All Rights Reserved by Matheus A A S
-        <a href="https://www.linkedin.com/in/malphadas/" target="_blank">
+        <a href="https://www.linkedin.com/in/malphadas/" target="_blank" rel="noopener noreferrer">
           Credits
         </a>
         &copy;

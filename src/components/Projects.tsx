@@ -2,23 +2,8 @@ import PageContainer from "./PageContainer";
 import styled from "styled-components";
 import { ListMain, ListSub, ListDate } from "./ListStyle";
 import { useState } from "react";
-
-const MyUl = styled.ul`
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  list-style: none;
-  padding: 1vh 1vw 1vh 3vw;
-  margin: 0;
-`;
-
-const Title = styled.h1`
-  font-size: calc(1px + 2vw);
-  margin: 1.5vh auto;
-  padding: 1vh 1vw;
-  color: whitesmoke;
-`;
+import Title from "./Title";
+import MyUl from "./MyUl";
 
 const StyledInput = styled.input`
   margin: 1vh 1vw;
@@ -113,7 +98,7 @@ export default function Projects() {
 
   return (
     <PageContainer>
-     
+     <main>
      <Title>Projects</Title>
 
         <MyUl>
@@ -174,7 +159,7 @@ export default function Projects() {
           </ListSub>
           <ListDate>October 2024 - December 2024</ListDate>
         </MyUl>
-     
+     </main>
     </PageContainer>
   );
 }

@@ -5,9 +5,13 @@ const PageContainer = styled.div`
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    overflow: auto;
+    flex-direction: row; 
+    
+    overflow-y: auto;
     background-color: #2d2d2d;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
 
     &::-webkit-scrollbar {
         display: none;

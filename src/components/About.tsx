@@ -1,20 +1,8 @@
 import PageContainer from "./PageContainer";
-import styled from "styled-components";
 import { ListMain} from "./ListStyle";
+import Title from "./Title";
+import MyUl from "./MyUl";
 
-const MyUl = styled.ul`
-    list-style: none; 
-    flex: 1;
-    padding: 1vh 1vw 1vh 3vw;
-    margin: 0;
-`;
-
-const Title = styled.h1`
-font-size: calc(1px + 2vw);
-margin: 1.5vh auto;
-padding: 1vh 1vw;
-color: whitesmoke;
-`;
 export default function About() {
   return (
     <>

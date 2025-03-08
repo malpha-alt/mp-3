@@ -7,6 +7,12 @@ const StyledHeader = styled.header`
     padding: 1vh 1vw;
     background-color: rgb(0, 43, 7);
     color: whitesmoke;
+
+    @media (max-width: 768px) {
+      font-size: calc(1px + 1vw);
+      align-items: center;
+    }
+
 `;
 
 const Title = styled.h1`
