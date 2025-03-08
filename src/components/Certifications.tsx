@@ -1,5 +1,4 @@
 import PageContainer from "./PageContainer";
-import styled from "styled-components";
 import { ListMain, ListSub, ListDate } from "./ListStyle";
 import Title from "./Title";
 import MyUl from "./MyUl";
